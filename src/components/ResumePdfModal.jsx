@@ -132,9 +132,18 @@ export default function ResumePdfModal({ isOpen, onClose }) {
             </h2>
             <div className="grid grid-cols-2 gap-2 text-xs">
               {certifications.map((cert, idx) => (
-                <div key={idx} className="p-2 rounded bg-slate-50 border border-slate-200">
-                  <div className="font-bold text-slate-900">{cert.title}</div>
-                  <div className="text-[11px] text-slate-500">{cert.specialization}</div>
+                <div key={idx} className="p-2 rounded bg-slate-50 border border-slate-200 flex items-center gap-2.5">
+                  {cert.image && (
+                    <img
+                      src={cert.image}
+                      alt={cert.title}
+                      className="w-8 h-8 rounded object-contain bg-white p-0.5 border border-slate-200 shrink-0"
+                    />
+                  )}
+                  <div>
+                    <div className="font-bold text-slate-900 leading-tight">{cert.title}</div>
+                    <div className="text-[11px] text-slate-500 mt-0.5">{cert.specialization}</div>
+                  </div>
                 </div>
               ))}
             </div>

@@ -12,7 +12,7 @@ export const personalInfo = {
   stats: [
     { value: "20+", label: "Years in IT" },
     { value: "10+", label: "Years Google Cloud" },
-    { value: "8+", label: "Cloud Certifications" },
+    { value: "10+", label: "Cloud Certifications" },
     { value: "GDE", label: "Developer Expert 2026" }
   ],
   coreCompetencies: [
@@ -125,6 +125,24 @@ export const certifications = [
     badgeType: "GDE",
     highlight: true,
     year: "2026"
+  },
+  {
+    title: "Gemini Enterprise Forward Deployed Engineer",
+    specialization: "Advanced Bootcamp Attendance Badge",
+    issuer: "Google Cloud",
+    badgeType: "AI",
+    highlight: true,
+    year: "Active",
+    image: "/badges/gemini-enterprise-fde.png"
+  },
+  {
+    title: "Google Cloud Ambassador - Application Modernization",
+    specialization: "Application Modernization Ambassador",
+    issuer: "Google Cloud",
+    badgeType: "Ambassador",
+    highlight: true,
+    year: "Active",
+    image: "/badges/ambassador-app-modernization.png"
   },
   {
     title: "Google Cloud Authorized Trainer",
