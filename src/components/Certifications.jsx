@@ -49,16 +49,18 @@ export default function Certifications() {
                   : 'bg-white dark:bg-slate-900 border-slate-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:-translate-y-1'
               }`}
             >
-              {cert.highlight && (
+              {(cert.highlight || cert.image) && (
                 <div className="absolute top-4 right-4 flex items-center gap-1.5">
                   {cert.image && (
                     <span className="p-1 rounded-md bg-slate-100/80 dark:bg-slate-800/80 text-slate-500 dark:text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity" title="Click to enlarge badge">
                       <ZoomIn className="w-3.5 h-3.5" />
                     </span>
                   )}
-                  <span className="px-2 py-0.5 text-[10px] uppercase font-bold tracking-wider rounded-md bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-200">
-                    Featured
-                  </span>
+                  {cert.highlight && (
+                    <span className="px-2 py-0.5 text-[10px] uppercase font-bold tracking-wider rounded-md bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-200">
+                      Featured
+                    </span>
+                  )}
                 </div>
               )}
 

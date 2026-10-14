@@ -17,7 +17,7 @@ A modern, responsive, and minimalist interactive resume landing page for **Franc
    - Instant CTAs: Download PDF Resume, Explore Experience, and Get in Touch.
 
 3. **Google Cloud Certifications & Honors Showcase**:
-   - Comprehensive grid highlighting 10+ Google Cloud credentials and badges (Google Developer Expert 2026, Gemini Enterprise Forward Deployed Engineer, Google Cloud Ambassador - Application Modernization, Authorized Trainer, Generative AI Leader, Cloud Architect, DevOps, Security, Data, Network, and Database Engineer) with interactive badge zoom previews.
+   - Comprehensive grid highlighting 12+ Google Cloud credentials and badges (Google Developer Expert 2026, Gemini Enterprise Forward Deployed Engineer, Gemini Enterprise Agent Development, Gemini Enterprise Deployment, Google Cloud Ambassador - Application Modernization, Authorized Trainer, Generative AI Leader, Cloud Architect, DevOps, Security, Data, Network, and Database Engineer) with official badge artwork and interactive lightbox zoom previews.
 
 4. **Public Contributions & Portfolio**:
    - Filterable catalog of public speaking engagements, keynotes, and technical articles:

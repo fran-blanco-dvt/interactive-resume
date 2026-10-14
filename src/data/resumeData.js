@@ -12,7 +12,7 @@ export const personalInfo = {
   stats: [
     { value: "20+", label: "Years in IT" },
     { value: "10+", label: "Years Google Cloud" },
-    { value: "10+", label: "Cloud Certifications" },
+    { value: "12+", label: "Cloud Certifications" },
     { value: "GDE", label: "Developer Expert 2026" }
   ],
   coreCompetencies: [
@@ -136,6 +136,24 @@ export const certifications = [
     image: "/badges/gemini-enterprise-fde.png"
   },
   {
+    title: "Gemini Enterprise Agent Development",
+    specialization: "Certified Partner Specialist",
+    issuer: "Google Cloud",
+    badgeType: "AI",
+    highlight: true,
+    year: "Active",
+    image: "/badges/gemini-enterprise-agent-development.png"
+  },
+  {
+    title: "Gemini Enterprise Deployment",
+    specialization: "Certified Partner Specialist",
+    issuer: "Google Cloud",
+    badgeType: "AI",
+    highlight: true,
+    year: "Active",
+    image: "/badges/gemini-enterprise-deployment.png"
+  },
+  {
     title: "Google Cloud Ambassador - Application Modernization",
     specialization: "Application Modernization Ambassador",
     issuer: "Google Cloud",
@@ -150,7 +168,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Trainer",
     highlight: true,
-    year: "Active"
+    year: "Active",
+    image: "/badges/authorized-trainer.png"
   },
   {
     title: "Google Cloud Certified - Generative AI Leader",
@@ -158,7 +177,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "AI",
     highlight: true,
-    year: "Active"
+    year: "Active",
+    image: "/badges/generative-ai-leader.png"
   },
   {
     title: "Professional Cloud Architect",
@@ -166,7 +186,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-cloud-architect.png"
   },
   {
     title: "Professional Cloud DevOps Engineer",
@@ -174,7 +195,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-cloud-devops-engineer.png"
   },
   {
     title: "Professional Data Engineer",
@@ -182,7 +204,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-data-engineer.png"
   },
   {
     title: "Professional Cloud Security Engineer",
@@ -190,7 +213,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-cloud-security-engineer.png"
   },
   {
     title: "Professional Cloud Network Engineer",
@@ -198,7 +222,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-cloud-network-engineer.png"
   },
   {
     title: "Professional Cloud Database Engineer",
@@ -206,7 +231,8 @@ export const certifications = [
     issuer: "Google Cloud",
     badgeType: "Professional",
     highlight: false,
-    year: "Active"
+    year: "Active",
+    image: "/badges/professional-cloud-database-engineer.png"
   }
 ];
 
